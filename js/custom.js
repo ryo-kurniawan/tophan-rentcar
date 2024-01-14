@@ -319,3 +319,18 @@ $(function () {
 
 
 });
+window.onscroll = function() {myFunction()};
+document.getElementById("header-1").style.display = "none";
+
+
+function myFunction() {
+  if (document.documentElement.scrollTop > 50) {
+    document.getElementById("header-1").style.display = "block";
+    document.getElementById("header-2").style.display = "none";
+
+  } else {
+    document.getElementById("header-1").style.display = "none";
+    document.getElementById("header-2").style.display = "block";
+
+  }
+}

@@ -218,12 +218,22 @@ button {
     background-color: #0e0c06;
     height: auto;
     background-size: 100%;
+    position: fixed;
+    z-index: 1;
+}
+
+.header_section_2 {
+    width: 100%;
+    float: left;
+    background-color: #ffffff;
+    height: auto;
+    background-size: 100%;
 }
 
 .header_bg {
     width: 100%;
     float: left;
-    background: #1d1d1d
+    background: #1d1d1d;
     height: auto;
     background-size: 100%;
 }
